@@ -1,0 +1,2 @@
+self.fondo_nether = PhotoImage(file="fondo2.png")
+        self.fondo_superficie = PhotoImage(file="fondo1.png")

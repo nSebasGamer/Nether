@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.mode {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label[for="netherToSurface"], label[for="surfaceToNether"] {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a80000;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
